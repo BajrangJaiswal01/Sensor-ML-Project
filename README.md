@@ -1,2 +1,2 @@
 ## END TO END ML PROJECT 
-# here i am creating sensor foult prediction
+# here i am creating sensor fault prediction
