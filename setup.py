@@ -1,4 +1,11 @@
-from setuptools import find_packages,setup 
+from setuptools import find_packages,setup  
+from typing import List 
+
+# create a function becz we dont want to install all the dependencies manually 
+def get_requiremets()-> List[str]: 
+    requirements_list : List[str] = [] 
+
+    return requirements_list
 
 
 
@@ -9,5 +16,5 @@ setup(
     author="sitesh",
     author_email="siteshjaisujaiswal@gmail.com",
     packages=find_packages(), 
-    install_requires = ['pymongo']
+    install_requires =get_requiremets(),
 )

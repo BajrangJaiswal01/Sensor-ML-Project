@@ -1,1 +1,2 @@
-pymongo==4.2.0
+pymongo==4.2.0 
+-e . ## editable model which is used to trigger the setup.py file so we dont have to run in manually.
